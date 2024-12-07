@@ -1,0 +1,35 @@
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes updown2 {
+  0% {
+    transform: translateY(20px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+.updown_1 {
+  animation: updown 3s linear infinite;
+}
+
+.updown_2 {
+  animation: updown2 3s linear infinite;
+}

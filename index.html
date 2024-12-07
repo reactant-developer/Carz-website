@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carz</title>
+
+    <link rel="stylesheet" href="./tailwind.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style type="text/tailwindcss"></style>
+
+    <style>
+      input::placeholder {
+        text-align: right;
+        font-size: 10px;
+      }
+      input {
+      }
+    </style>
+
+    <link rel="stylesheet" href="./assets/style/animination.css" />
+  </head>
+
+  <body class="m-0 p-0 box-border overflow-x-hidden">
+    <header
+      class="w-full flex justify-between items-center text-center px-10 py-6 lg:px-20 md:px-20"
+    >
+      <div
+        class="bg-black px-3 py-2 flex text-white gap-2 rounded-md items-center text-sm lg:text-lg"
+      >
+        <img src="./assets/icons/user.svg" alt="user" />
+        <a href="#">Login</a>
+      </div>
+
+      <div class="hidden flex gap-5 text-lg md:flex lg:flex">
+        <a href="#">Contact Us</a>
+        <a href="#">Blog</a>
+        <a href="#">About Us</a>
+        <a href="#">Categories</a>
+        <a href="#">Home</a>
+      </div>
+
+      <img
+        src="./assets/images/logo.png"
+        alt="logo"
+        class="w-16 md:w-20 lg:w-[24%]"
+      />
+
+      <i class="fa-solid fa-bars md:hidden lg:hidden text-2xl"></i>
+    </header>
+
+    <main class="">
+      <section
+        class="hero lg:px-20 lg:pt-5 lg:pb-36 md:relative lg:relative px-10 py-10 md:px-20 md:pt-5 md:pb-36"
+      >
+        <div
+          class="flex flex-col lg:flex lg:w-full lg:text-right lg:justify-between lg:text-center md:flex md:flex-row md:w-full md:text-right md:justify-between md:text-center"
+        >
+          <div
+            class="lg:w-[55%] lg:text-[65px] lg:font-semibold lg:leading-[85px] text-3xl font-bold mb-4 md:w-[50%] md:text-[35px] md:font-semibold md:leading-[40px]"
+          >
+            <h1>Find Your Perfect</h1>
+            <h1>Ride: Buy, Sell, Cars</h1>
+          </div>
+
+          <p
+            class="lg:w-[40%] lg:text-[17px] lg:leading-[20px] lg:flex lg:items-center text-sm md:w-[40%] md:text-[17px] md:leading-[20px] md: md:items-center"
+          >
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout
+          </p>
+        </div>
+
+        <img
+          src="./assets/images/User reviews.png"
+          alt=""
+          class="mt-8 lg:mt-[90px] lg:mb-[200px] lg:flex lg:justify-self-end mt-8 md:mt-[90px] md:mb-[200px] md:flex md:justify-self-end"
+        />
+
+        <img
+          src="./assets/images/car-half.png"
+          alt=""
+          class="h-52 -ml-14 lg:absolute lg:-left-2 lg:top-56 lg:h-[410px] md:-left-2 md:top-56 md:h-[400px] md:absolute"
+        />
+
+        <div
+          class="hidden lg:bg-[#f9f9f9] lg:px-3 lg:py-4 lg:flex lg:w-[70%] lg:gap-4 absolute lg:bottom-9 lg:left-0 lg:right-0 lg:m-auto"
+        >
+          <div class="w-[19%]">
+            <p class="w-full text-right">demo</p>
+            <div class="flex gap-3 w-full justify-between">
+              <img
+                src="./assets/icons/search.svg"
+                alt=""
+                class="absolute left-5 bottom-6 w-4"
+              />
+
+              <img
+                src="./assets/icons/drop-down.svg"
+                alt=""
+                class="absolute left-[104px] bottom-5"
+              />
+              <input
+                type="text"
+                placeholder="Royce"
+                class="w-[50%] px-3 py-0 border-2 border-gray-500 bg-black h-8"
+              />
+              <input
+                type="text"
+                placeholder="benz"
+                class="w-[50%] p-4 border-[1px] border-gray-500 h-8"
+              />
+            </div>
+          </div>
+
+          <div class="w-[23%]">
+            <p class="text-end w-full">demo</p>
+            <div class="flex w-full">
+              <input
+                type="text"
+                placeholder="Royce"
+                class="w-[50%] p-4 border-[1px] border-gray-500 h-8"
+              />
+              <input
+                type="text"
+                placeholder="benz"
+                class="w-[50%] p-4 border-[1px] border-gray-500 h-8"
+              />
+            </div>
+          </div>
+
+          <div class="w-[20%]">
+            <p class="text-right w-full">demo</p>
+            <div class="flex w-full relative">
+              <img
+                src="./assets/icons/drop-down.svg"
+                alt=""
+                class="absolute left-1 bottom-1"
+              />
+
+              <img
+                src="./assets/icons/drop-down.svg"
+                alt=""
+                class="absolute left-24 bottom-1"
+              />
+              <input
+                type="text"
+                placeholder="Royce"
+                class="w-[50%] p-4 border-[1px] border-gray-500 h-8"
+              />
+              <input
+                type="text"
+                placeholder="benz"
+                class="w-[50%] p-4 border-[1px] border-gray-500 h-8"
+              />
+            </div>
+          </div>
+
+          <div class="w-[33%]">
+            <p class="text-end w-full">demo</p>
+            <div class="w-full relative">
+              <img
+                src="./assets/icons/drop-down.svg"
+                alt=""
+                class="absolute left-1 bottom-1"
+              />
+              <input
+                type="text"
+                placeholder="Royce"
+                class="w-[96%] p-4 border-[1px] border-gray-500 h-8"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hidden md:hidden w-full">
+        <div class="flex gap-20 car_logos px-20 py-10">
+          <img src="./assets/images/lambo.png" alt="" class="updown_1" />
+          <img src="./assets/images/bmw.png" alt="" class="updown_2" />
+          <img src="./assets/images/ferrari.png" alt="" class="updown_1" />
+          <img src="./assets/images/mercedes.png" alt="" class="updown_2" />
+          <img src="./assets/images/rolls-royce.png" alt="" class="updown_1" />
+          <img src="./assets/images/tesla.png" alt="" class="updown_2" />
+          <img src="./assets/images/volkswagen.png" alt="" class="updown_1" />
+        </div>
+      </section>
+
+      <!-- mobile and tablet marquee section -->
+
+      <section class="lg:hidden">
+        <marquee behavior="" direction="">
+          <div class="flex gap-20 car_logos px-20 py-10">
+            <img src="./assets/images/lambo.png" alt="" class="updown_1" />
+            <img src="./assets/images/bmw.png" alt="" class="updown_2" />
+            <img src="./assets/images/ferrari.png" alt="" class="updown_1" />
+            <img src="./assets/images/mercedes.png" alt="" class="updown_2" />
+            <img
+              src="./assets/images/rolls-royce.png"
+              alt=""
+              class="updown_1"
+            />
+            <img src="./assets/images/tesla.png" alt="" class="updown_2" />
+            <img src="./assets/images/volkswagen.png" alt="" class="updown_1" />
+          </div>
+        </marquee>
+      </section>
+
+      <section class="w-full">
+        <h1
+          class="text-3xl text-center mb-8 lg:text-5xl lg:text-center lg:font-bold lg:mt-6 lg:mb-14 md:text-5xl md:text-center md:font-bold md:mt-6 md:mb-14"
+        >
+          Add Image here
+        </h1>
+        <img
+          src="./assets/images/car-big.png"
+          alt=""
+          class="w-72 m-auto mb-4 lg:w-96 lg:m-auto lg:pb-4 md:w-96 md:m-auto md:pb-4"
+        />
+
+        <div
+          class="grid grid-cols-3 gap-3 mx-3 mb-14 lg:flex lg:h-36 lg:gap-4 lg:justify-center lg:pb-10 md:flex md:h-36 md:gap-4 md:justify-center md:pb-10"
+        >
+          <img src="./assets/images/car-small.png" alt="" class="" />
+          <img src="./assets/images/car-small.png" alt="" />
+          <img src="./assets/images/car-small.png" alt="" />
+          <img src="./assets/images/car-small.png" alt="" />
+          <img src="./assets/images/car-small.png" alt="" />
+          <img src="./assets/images/car-small.png" alt="" />
+        </div>
+      </section>
+
+      <section class="w-full px-3 py-10 lg:px-32 lg:py-5 md:px-20 md:py-10">
+        <div
+          class="lg:w-[35%] lg:flex lg:justify-self-end lg:flex-col md:w-[35%] md:flex md:justify-self-end md:flex-col"
+        >
+          <h1
+            class="text-2xl text-center mb-5 font-bold lg:text-right lg:text-2xl lg:font-bold lg:mb-4 md:text-right md:text-2xl md:font-bold md:mb-4"
+          >
+            How It Works
+          </h1>
+          <p
+            class="text-center mb-5 text-sm lg:text-right lg:text-sm lg:mb-10 md:text-right md:text-sm md:mb-10"
+          >
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when at its layout
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col lg:flex lg:w-full lg:justify-between md:flex md:w-full md:flex-row lg:flex-row md:justify-between"
+        >
+          <div class="w-full mb-6 bg-gray-300 lg:w-[48%] md:w-[48%]">
+            Insert image here
+          </div>
+
+          <div
+            class="grid grid-cols-2 gap-2 lg:w-[48%] lg:flex lg:flex-col lg:gap-4 md:w-[48%] md:flex md:flex-col md:gap-4"
+          >
+            <div class="border-2 py-4 px-2 text-right">
+              <img
+                src="./assets/icons/car.svg"
+                alt=""
+                class="flex justify-self-end w-8"
+              />
+              <h1 class="text-xl font-semibold">Discover Your Perfet Car</h1>
+              <p class="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                fugit!
+              </p>
+            </div>
+            <div class="border-2 py-4 px-2 text-right">
+              <img
+                src="./assets/icons/calendar.svg"
+                alt=""
+                class="flex justify-self-end w-8"
+              />
+              <h1 class="text-xl font-semibold">Discover Your Perfet Car</h1>
+              <p class="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                fugit!
+              </p>
+            </div>
+            <div class="border-2 py-4 px-2 text-right">
+              <img
+                src="./assets/icons/card.svg"
+                alt=""
+                class="flex justify-self-end w-8"
+              />
+              <h1 class="text-xl font-semibold">Discover Your Perfet Car</h1>
+              <p class="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                fugit!
+              </p>
+            </div>
+            <div class="border-2 py-4 px-2 text-right">
+              <img
+                src="./assets/icons/task-check.svg"
+                alt=""
+                class="flex justify-self-end w-8"
+              />
+              <h1 class="text-xl font-semibold">Discover Your Perfet Car</h1>
+              <p class="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                fugit!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-full px-3 py-10 lg:px-32 lg:py-10 md:px-20 md:py-10">
+        <h1 class="text-center text-2xl font-bold mb-4">
+          I believe in buyers website
+        </h1>
+
+        <div
+          class="flex flex-col gap-6 lg:flex w-full lg:justify-between md:flex md:justify-between md:flex-row lg:flex-row"
+        >
+          <div
+            class="flex flex-col gap-4 lg:w-[48%] lg:flex lg:flex-col lg:gap-4 md:w-[48%] md:flex md:flex-col md:gap-4"
+          >
+            <div class="border-2 py-4 px-2 text-right flex gap-5">
+              <div>
+                <h1 class="text-2xl font-semibold mb-2">Professionalism</h1>
+                <p class="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                  fugit!
+                </p>
+              </div>
+
+              <img
+                src="./assets/icons/professional.svg"
+                alt=""
+                class="flex justify-self-end w-11"
+              />
+            </div>
+            <div class="border-2 py-4 px-2 text-right">
+              <div>
+                <h1 class="text-2xl font-semibold">Objectives</h1>
+                <p class="text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                  fugit!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-gray-300 lg:w-[48%] px-4 py-6 md:w-[48%]">
+            <h1 class="text-right text-3xl mb-4">Reliability</h1>
+            <p class="text-sm text-right">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum,
+              eum.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-3 md:px-10 lg:px-32 pb-10">
+        <div class="flex justify-between text-start">
+          <h1
+            class="lg:m-auto lg:text-3xl pb-6 font-medium mb-5b md:text-3xl md:m-auto"
+          >
+            Filters by vehicle type
+          </h1>
+          <i class="fa-solid fa-filter md:hidden lg:hidden"></i>
+        </div>
+
+        <div
+          class="hidden text-black lg:flex lg:justify-center lg:gap-6 md:flex md:justify-center md:gap-6"
+        >
+          <a href="#" class="bg-slate-300 border-2 py-2 px-6 hover:bg-slate-100"
+            >Lambo</a
+          >
+          <a href="#" class="bg-slate-300 border-2 py-2 px-6 hover:bg-slate-100"
+            >Benz</a
+          >
+          <a href="#" class="bg-slate-300 border-2 py-2 px-6 hover:bg-slate-100"
+            >Toyato</a
+          >
+          <a href="#" class="bg-slate-300 border-2 py-2 px-6 hover:bg-slate-100"
+            >ferrari</a
+          >
+          <a
+            href="#"
+            class="bg-black text-white border-2 py-2 px-6 hover:bg-slate-100 hover:text-black"
+            >BMW</a
+          >
+        </div>
+
+        <div
+          class="box grid grid-cols-2 gap-5 mt-6 lg:grid lg:grid-cols-3 lg:w-[90%] md:grid md:grid-cols-3 md:w-[90%] m-auto"
+        >
+          <div>
+            <div class="bg-slate-300 h-[250px] w-[100%]"></div>
+            <p>Lamborghini</p>
+            <h1>Huracan 1.5 sports</h1>
+            <div class="border-[1px] border-black mt-3"></div>
+          </div>
+          <div>
+            <div class="bg-slate-300 h-[250px] w-[100%]"></div>
+            <p>Lamborghini</p>
+            <h1>Huracan 1.5 sports</h1>
+            <div class="border-[1px] border-black mt-3"></div>
+          </div>
+          <div>
+            <div class="bg-slate-300 h-[250px] w-[100%]"></div>
+            <p>Lamborghini</p>
+            <h1>Huracan 1.5 sports</h1>
+            <div class="border-[1px] border-black mt-3"></div>
+          </div>
+          <div>
+            <div class="bg-slate-300 w-[100%] h-[250px]"></div>
+            <p>Lamborghini</p>
+            <h1>Huracan 1.5 sports</h1>
+            <div class="border-[1px] border-black mt-3"></div>
+          </div>
+          <div>
+            <div class="bg-slate-300 h-[250px] w-[100%]"></div>
+            <p>Lamborghini</p>
+            <h1>Huracan 1.5 sports</h1>
+            <div class="border-[1px] border-black mt-3"></div>
+          </div>
+          <div>
+            <div class="bg-slate-300 h-[250px] w-[100%]"></div>
+            <p>Lamborghini</p>
+            <h1>Huracan 1.5 sports</h1>
+            <div class="border-[1px] border-black mt-3"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-3 lg:px-10 md:px-10 pb-10">
+        <h1 class="text-2xl md:text-4xl lg:text-4xl text-right font-bold mb-5">
+          What Our Client's Says
+        </h1>
+        <p class="text-sm text-right mb-8">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, ex!
+        </p>
+
+        <div
+          class="client_say grid grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-4 gap-4"
+        >
+          <div class="card_1 border-2 border-black rounded-sm px-3 py-2">
+            <div class="flex justify-end gap-4">
+              <div class="text-[17] lg:text-lg font-bold">
+                <h1>Albert Flores</h1>
+                <h1>CEO</h1>
+              </div>
+              <img src="./assets/images/client-1.png" alt="" />
+            </div>
+            <p class="text-right text-sm mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam, facere.
+            </p>
+
+            <div class="flex justify-end mt-4">
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="card_1 border-2 border-black rounded-sm px-3 py-2">
+            <div class="flex justify-end gap-4">
+              <div>
+                <h1>Albert Flores</h1>
+                <h1>CEO</h1>
+              </div>
+              <img src="./assets/images/client-1.png" alt="" />
+            </div>
+            <p class="text-right text-sm mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam, facere.
+            </p>
+
+            <div class="flex justify-end mt-4">
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_1 border-2 border-black rounded-sm px-3 py-2">
+            <div class="flex justify-end gap-4">
+              <div>
+                <h1>Albert Flores</h1>
+                <h1>CEO</h1>
+              </div>
+              <img src="./assets/images/client-1.png" alt="" />
+            </div>
+            <p class="text-right text-sm mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam, facere.
+            </p>
+
+            <div class="flex justify-end mt-4">
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_1 border-2 border-black rounded-sm px-3 py-2">
+            <div class="flex justify-end gap-4">
+              <div>
+                <h1>Albert Flores</h1>
+                <h1>CEO</h1>
+              </div>
+              <img src="./assets/images/client-1.png" alt="" />
+            </div>
+            <p class="text-right text-sm mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam, facere.
+            </p>
+
+            <div class="flex justify-end mt-4">
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_1 border-2 border-black rounded-sm px-3 py-2">
+            <div class="flex justify-end gap-4">
+              <div>
+                <h1>Albert Flores</h1>
+                <h1>CEO</h1>
+              </div>
+              <img src="./assets/images/client-1.png" alt="" />
+            </div>
+            <p class="text-right text-sm mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam, facere.
+            </p>
+
+            <div class="flex justify-end mt-4">
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_1 border-2 border-black rounded-sm px-3 py-2">
+            <div class="flex justify-end gap-4">
+              <div>
+                <h1>Albert Flores</h1>
+                <h1>CEO</h1>
+              </div>
+              <img src="./assets/images/client-1.png" alt="" />
+            </div>
+            <p class="text-right text-sm mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam, facere.
+            </p>
+
+            <div class="flex justify-end mt-4">
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_1 border-2 border-black rounded-sm px-3 py-2">
+            <div class="flex justify-end gap-4">
+              <div>
+                <h1>Albert Flores</h1>
+                <h1>CEO</h1>
+              </div>
+              <img src="./assets/images/client-1.png" alt="" />
+            </div>
+            <p class="text-right text-sm mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam, facere.
+            </p>
+
+            <div class="flex justify-end mt-4">
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+            </div>
+          </div>
+          <div class="card_1 border-2 border-black rounded-sm px-3 py-2">
+            <div class="flex justify-end gap-4">
+              <div>
+                <h1>Albert Flores</h1>
+                <h1>CEO</h1>
+              </div>
+              <img src="./assets/images/client-1.png" alt="" />
+            </div>
+            <p class="text-right text-sm mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam, facere.
+            </p>
+
+            <div class="flex justify-end mt-4">
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+              <img src="./assets/icons/star.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="px-5 mb-32 md:px-28 lg:px-32 lg:py-10 md:py-10 relative lg:mb-44 md:mb-40"
+      >
+        <h1 class="text-right text-2xl lg:text-4xl md:text-4xl font-bold mb-9">
+          Why choose buyer car
+        </h1>
+        <div
+          class="number grid grid-cols-2 gap-9 lg:mb-10 lg:grid lg:grid-cols-4 md:gap-4 md:grid md:grid-cols-4 md:gap-4"
+        >
+          <div class="relative mb-10">
+            <img
+              src="./assets/images/04.png"
+              alt=""
+              class="flex justify-self-end w-16"
+            />
+
+            <div class="absolute top-4">
+              <h1 class="text-right font-medium text-sm">Unlimited Miles</h1>
+              <p class="text-right text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="relative">
+            <img
+              src="./assets/images/03.png"
+              alt=""
+              class="flex w-16 justify-self-end"
+            />
+
+            <div class="absolute top-4">
+              <h1 class="text-right font-medium text-sm">Unlimited Miles</h1>
+              <p class="text-right text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="relative">
+            <img
+              src="./assets/images/02.png"
+              alt=""
+              class="flex w-16 justify-self-end"
+            />
+
+            <div class="absolute top-4">
+              <h1 class="text-right font-medium text-sm">Unlimited Miles</h1>
+              <p class="text-right text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="relative">
+            <img
+              src="./assets/images/01.png"
+              alt=""
+              class="flex w-16 justify-self-end"
+            />
+
+            <div class="absolute top-4">
+              <h1 class="text-right font-medium text-sm">Unlimited Miles</h1>
+              <p class="text-right text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="hidden lg:block lg:bg-slate-300 lg:w-[100%] lg:h-[200px] lg:m-auto lg:top-52 lg:left-0 lg:right-0 md:bg-slate-300 md:w-[70%] md:h-[200px] md:m-auto md:top-52 md:left-0 md:right-0"
+        ></div>
+      </section>
+
+      <footer class="px-5 pb-8 lg:px-32 md:px-28 bg-gray-300 pt-20 relative">
+        <div
+          class="hidden lg:bg-black lg:text-white lg:flex lg:px-8 lg:pt-6 lg:justify-between lg:w-[100%] lg:m-auto lg:-mt-60"
+        >
+          <div class="bg-slate-500 w-[30%]"></div>
+          <div class="w-[66%] pt-16 text-right">
+            <h1 class="text-3xl mb-3">Download The App Now</h1>
+            <p class="text-sm mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+              sequi?
+            </p>
+
+            <div class="relative">
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="border-[1px] pl-5 pr-10 py-1 w-[60%] mb-14 bg-black border-white"
+              />
+
+              <img
+                src="./assets/icons/arrow-right.svg"
+                alt=""
+                class="absolute w-4 top-2 right-[340px]"
+              />
+              <img
+                src="./assets/icons/gmail.svg"
+                alt=""
+                class="absolute top-2 right-2 w-4"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-2 gap-6 lg:grid lg:grid-cols-4 lg:gap-6 md:grid md:grid-cols-4 md:gap-6 pt-5 px-4"
+        >
+          <div>
+            <h1 class="text-[18px] font-bold -scroll-mb-6 text-right">
+              Subscribe to our Newsletter
+            </h1>
+            <p class="text-sm text-right mb-2">
+              Enter your email below tobe the first to know about new
+              collections.
+            </p>
+
+            <div class="relative">
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="border-2 pl-5 py-1 w-[100%] bg-slate-300 border-black pr-8"
+              />
+              <img
+                src="./assets/icons/arrow-right.svg"
+                alt=""
+                class="absolute top-3 w-4 left-2"
+              />
+              <img
+                src="./assets/icons/gmail.svg"
+                alt=""
+                class="absolute top-3 right-2 w-4"
+              />
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <h1 class="font-bold text-[20px]">Company Services</h1>
+            <a href="#">Pricing Plan</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Trems & Conditions</a>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h1 class="font-bold text-[20px]">Company</h1>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Contact Us</a>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <img src="./assets/images/logo.png" alt="" class="w-20" />
+
+            <div class="flex gap-2">
+              <a href="mailto:info@carz.com">info@carz.com </a>
+              <img src="./assets/icons/gmail.svg" alt="" class="" />
+            </div>
+            <div class="flex gap-2 items-center">
+              <p class="text-[10px]">
+                4140 Parker Rd. Allentown, New Mexico 3114
+              </p>
+              <img src="./assets/icons/location 01.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="border-b-[1px] bg-slate-300 border-black pt-4"></div>
+
+        <div
+          class="flex flex-col items-center text-center lg:flex lg:justify-between lg:pt-2 bg-slate-300 lg:px-6 md:flex md:justify-between md:pt-2 bg-slate-300 md:px-6"
+        >
+          <div class="flex gap-4 pb-3 pt-4">
+            <img src="./assets/icons/facebook-icon.svg" alt="" />
+            <img src="./assets/icons/instagram.svg" alt="" />
+            <img src="./assets/icons/x-icon.svg" alt="" />
+          </div>
+
+          &copy;2024 Carz All Right are reseverd
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
